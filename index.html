@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobil Listrik 2025 - Teknologi Futuristik yang Siap Mengubah Dunia | AutoVision</title>
+    <meta name="description" content="Jelajahi inovasi terbaru mobil listrik 2025 dengan teknologi AI, autonomous driving level 4, dan performa luar biasa. Baca berita eksklusif di AutoVision.">
+    <meta name="keywords" content="mobil listrik 2025, teknologi otomotif, mobil autonomous, kendaraan masa depan, berita otomotif terbaru">
+    <style>
+        :root {
+            --primary: #ff3e00;
+            --secondary: #0066cc;
+            --dark: #1a1a1a;
+            --light: #f8f9fa;
+            --gray: #6c757d;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+        
+        body {
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--dark) 0%, #2d2d2d 100%);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 2rem;
+        }
+        
+        nav ul li a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+            position: relative;
+        }
+        
+        nav ul li a:hover {
+            color: var(--primary);
+        }
+        
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s;
+        }
+        
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+        
+        /* Hero Section */
+        .hero {
+            height: 80vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1593941707882-a5bba5338fda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.8) 100%);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(45deg, #fff, var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            color: #ccc;
+        }
+        
+        .date-badge {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 30px;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 10px rgba(255, 62, 0, 0.3);
+        }
+        
+        /* Article Content */
+        .article-container {
+            background: linear-gradient(145deg, #1a1a1a, #2d2d2d);
+            border-radius: 15px;
+            overflow: hidden;
+            margin: -50px auto 3rem;
+            position: relative;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+        
+        .article-header {
+            padding: 3rem;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+        
+        .article-title {
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+            color: white;
+        }
+        
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            color: var(--gray);
+            margin-bottom: 1rem;
+        }
+        
+        .article-content {
+            padding: 3rem;
+        }
+        
+        .article-content h2 {
+            color: var(--primary);
+            margin: 2.5rem 0 1.5rem;
+            font-size: 2rem;
+            border-left: 4px solid var(--primary);
+            padding-left: 1rem;
+        }
+        
+        .article-content p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .feature-image {
+            width: 100%;
+            border-radius: 10px;
+            margin: 2rem 0;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            transition: transform 0.3s;
+        }
+        
+        .feature-image:hover {
+            transform: scale(1.02);
+        }
+        
+        .image-caption {
+            text-align: center;
+            color: var(--gray);
+            font-style: italic;
+            margin-top: -1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            border-left: 5px solid var(--primary);
+        }
+        
+        .tech-specs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2.5rem 0;
+        }
+        
+        .spec-card {
+            background: rgba(255,255,255,0.05);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .spec-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.08);
+        }
+        
+        .spec-card h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .spec-card p {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white;
+        }
+        
+        .related-links {
+            background: rgba(255,255,255,0.05);
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 3rem 0;
+        }
+        
+        .related-links h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .related-links ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        
+        .related-links li {
+            padding: 1rem;
+            background: rgba(255,255,255,0.03);
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        
+        .related-links li:hover {
+            background: rgba(255,255,255,0.08);
+        }
+        
+        .related-links a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+        }
+        
+        .related-links a:hover {
+            color: var(--primary);
+        }
+        
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
+            padding: 3rem 0 1.5rem;
+            margin-top: 3rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+        }
+        
+        .footer-section p, .footer-section a {
+            color: #aaa;
+            line-height: 1.6;
+        }
+        
+        .footer-section a {
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.8rem;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: var(--primary);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: var(--primary);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 1.5rem;
+            border-top: 1px solid #333;
+            color: #666;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 1rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 0.5rem 1rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .article-title {
+                font-size: 2rem;
+            }
+            
+            .article-content {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">AutoVision</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#">Berita</a></li>
+                        <li><a href="#">Review</a></li>
+                        <li><a href="#">Video</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="date-badge">15 Maret 2025</div>
+                <h1>Revolusi Mobil Listrik 2025: Masa Depan Transportasi Sudah di Depan Mata</h1>
+                <p>Jelajahi inovasi terbaru yang akan mengubah cara kita berpikir tentang mobilitas. Dari AI canggih hingga teknologi baterai revolusioner.</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <article class="article-container">
+            <div class="article-header">
+                <h1 class="article-title">Mobil Listrik 2025: Teknologi Futuristik yang Siap Mengubah Dunia</h1>
+                <div class="article-meta">
+                    <span>Oleh: Tim Redaksi AutoVision</span>
+                    <span>Kategori: Teknologi Otomotif</span>
+                    <span>15 Menit Baca</span>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <p>Tahun 2025 menandai titik balik dalam industri otomotif global. Dengan percepatan adopsi kendaraan listrik dan perkembangan teknologi yang pesat, mobil masa depan tidak hanya sekadar alat transportasi, tetapi menjadi pusat teknologi yang terintegrasi dengan kehidupan digital kita.</p>
+                
+                <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mobil Listrik Futuristik 2025" class="feature-image">
+                <p class="image-caption">Konsep mobil listrik 2025 dengan desain aerodinamis dan teknologi autonomous</p>
+                
+                <h2>Autonomous Driving Level 4: Mengemudi Tanpa Pengemudi</h2>
+                <p>Teknologi mengemudi otonom telah mencapai level yang sebelumnya hanya ada dalam film fiksi ilmiah. Dengan Autonomous Driving Level 4, kendaraan dapat menangani semua aspek mengemudi dalam kondisi tertentu tanpa memerlukan intervensi pengemudi.</p>
+                
+                <div class="highlight-box">
+                    <p><strong>Fakta Eksklusif:</strong> Tesla, Mercedes, dan BMW akan meluncurkan model dengan teknologi Level 4 pada kuartal ketiga 2025, memungkinkan pengemudi untuk sepenuhnya melepaskan kendali di jalan tol dan jalan raya tertentu.</p>
+                </div>
+                
+                <h2>Baterai Solid-State: Revolusi dalam Pengisian Daya</h2>
+                <p>Teknologi baterai solid-state akhirnya mencapai tahap produksi massal pada tahun 2025. Dengan kepadatan energi yang lebih tinggi dan waktu pengisian yang lebih cepat, mobil listrik generasi baru dapat menempuh jarak hingga 1.000 km dengan sekali pengisian.</p>
+                
+                <div class="tech-specs">
+                    <div class="spec-card">
+                        <h3>Jarak Tempuh</h3>
+                        <p>1.000 km</p>
+                    </div>
+                    <div class="spec-card">
+                        <h3>Waktu Isi Ulang</h3>
+                        <p>8 Menit</p>
+                    </div>
+                    <div class="spec-card">
+                        <h3>0-100 km/jam</h3>
+                        <p>2.1 Detik</p>
+                    </div>
+                    <div class="spec-card">
+                        <h3>Efisiensi</h3>
+                        <p>6.2 km/kWh</p>
+                    </div>
+                </div>
+                
+                <img src="https://images.unsplash.com/photo-1593941707882-a5bba5338fda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Interior Mobil Listrik Modern" class="feature-image">
+                <p class="image-caption">Interior futuristik dengan augmented reality display dan kontrol gestur</p>
+                
+                <h2>AI Personal Assistant: Lebih dari Sekadar Asisten Digital</h2>
+                <p>Sistem AI terintegrasi dalam mobil listrik 2025 tidak hanya merespons perintah suara, tetapi mampu memprediksi kebutuhan pengguna, mengatur jadwal, dan bahkan memberikan rekomendasi berdasarkan preferensi dan kebiasaan.</p>
+                
+                <h2>Vehicle-to-Grid Technology: Mobil sebagai Sumber Energi</h2>
+                <p>Teknologi V2G (Vehicle-to-Grid) memungkinkan mobil listrik untuk tidak hanya mengonsumsi energi, tetapi juga mengembalikan kelebihan daya ke jaringan listrik, menciptakan ekosistem energi yang lebih berkelanjutan.</p>
+                
+                <div class="related-links">
+                    <h3>Artikel Terkait Lainnya:</h3>
+                    <ul>
+                        <li><a href="#">Review Mendalam: Tesla Model Z 2025 - Inovasi atau Revolusi?</a></li>
+                        <li><a href="#">10 Mobil Listrik Terbaik 2025 dengan Teknologi Autonomous</a></li>
+                        <li><a href="#">Infrastruktur Charging di Indonesia: Siap Menyambut 2025?</a></li>
+                        <li><a href="#">Mobil Listrik vs Hidrogen: Mana Masa Depan Transportasi?</a></li>
+                        <li><a href="#">Teknologi Baterai Solid-State: Mengubah Segalanya pada 2025</a></li>
+                        <li><a href="#">Mobil Sport Listrik 2025: Performa Luar Biasa Tanpa Emisi</a></li>
+                    </ul>
+                </div>
+                
+                <h2>Konektivitas 5G+: Internet Super Cepat di Jalan</h2>
+                <p>Dengan dukungan jaringan 5G+, mobil listrik 2025 menjadi hub konektivitas yang memungkinkan streaming konten definisi tinggi, konferensi video, dan unduh data dengan kecepatan yang sebelumnya tidak terbayangkan.</p>
+                
+                <h2>Kesimpulan: Masa Depan yang Lebih Cerah</h2>
+                <p>Mobil listrik 2025 tidak hanya mewakili kemajuan teknologi, tetapi juga komitmen terhadap keberlanjutan dan kenyamanan hidup. Dengan berbagai inovasi yang akan diluncurkan, tahun 2025 akan menjadi tahun yang menentukan dalam sejarah otomotif dunia.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tentang AutoVision</h3>
+                    <p>AutoVision adalah portal berita otomotif terdepan yang menyajikan informasi terkini, review mendalam, dan analisis teknologi terbaru di industri otomotif.</p>
+                    <div class="social-links">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">TW</a>
+                        <a href="#">YT</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Kategori Populer</h3>
+                    <a href="#">Mobil Listrik</a>
+                    <a href="#">Teknologi Autonomous</a>
+                    <a href="#">Review Mobil</a>
+                    <a href="#">Berita Produsen</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak Kami</h3>
+                    <a href="mailto:redaksi@autovision.com">redaksi@autovision.com</a>
+                    <a href="tel:+622112345678">+62 21 1234 5678</a>
+                    <a href="#">Jl. Teknologi No. 2025, Jakarta</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Dapatkan berita terbaru langsung ke email Anda. Berlangganan newsletter kami untuk update teknologi otomotif.</p>
+                    <a href="#" style="background: var(--primary); color: white; padding: 0.5rem 1rem; border-radius: 5px; text-align: center; margin-top: 1rem;">Berlangganan Sekarang</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 AutoVision. Semua Hak Cipta Dilindungi. | Berita Otomotif Terpercaya</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
