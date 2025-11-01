@@ -1,0 +1,9 @@
+judul file : robot.txt
+
+User-agent: *
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+Sitemap: https://berita-otomotif.github.io/news/sitemap.xml
